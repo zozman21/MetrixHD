@@ -49,7 +49,7 @@ def patched_load(self):
 Image.Image.load = patched_load
 
 class MetrixHDXPicon(Renderer):
-	searchPaths = ('/media/usb/XPicons/%s/','/media/usb/%s/','/%s/','/%sx/','/usr/share/enigma2/XPicons/%s/','/usr/share/enigma2/%s/','/usr/%s/','/media/hdd/XPicons/%s/','/media/hdd/%s/')
+	searchPaths = ('/media/usb/picon/%s/','/media/usb/%s/','/%s/','/%sx/','/media/ba/picon/%s/','/media/ba/%s/','/%s/','/%sx/','/usr/share/enigma2/picon/%s/','/usr/share/enigma2/%s/','/usr/%s/','/media/hdd/picon/%s/','/media/hdd/%s/')
 
 	def __init__(self):
 		Renderer.__init__(self)
